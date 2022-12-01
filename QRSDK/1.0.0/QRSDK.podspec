@@ -1,0 +1,16 @@
+Pod::Spec.new do |s|
+  s.name             = 'QRSDK'
+  s.version          = '1.0.0'
+  s.summary          = 'QRSDK is a QR encoding/decoding library.'
+  s.description      = <<-DESC
+                        QRSDK is a QR encoding/decoding library. This is a proof of concept project.
+                       DESC
+  s.homepage         = 'https://github.com/Isuru-Nanayakkara/QRSDK'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'Isuru Nanayakkara' => 'isuru.nan@gmail.com' }
+  s.source           = { :http => 'https://github.com/Isuru-Nanayakkara/OwnPodspecs.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '11.0'
+  s.swift_version = '5.0'
+  s.vendored_frameworks = 'QRSDK.framework'
+  # s.public_header_files = 'QRSDK.framework/Headers/*.h'
+end
