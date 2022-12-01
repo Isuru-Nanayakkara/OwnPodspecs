@@ -1,4 +1,4 @@
-aPod::Spec.new do |s|
+Pod::Spec.new do |s|
   s.name             = 'QRSDK'
   s.version          = '1.0.0'
   s.summary          = 'QRSDK is a QR encoding/decoding library.'
